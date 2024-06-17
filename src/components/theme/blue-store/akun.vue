@@ -3,15 +3,15 @@
       <div class="mx-auto min-h-full max-w-md">
         <div class="min-h-screen bg-white" style="padding-bottom: 4rem;">
           <div class="py-10 items-center text-center">
-            <img src="../../assets/coffe.svg" alt="logo" class="h-20 w-20 mx-auto mt-3">
+            <img src="../../../assets/coffe.svg" alt="logo" class="h-20 w-20 mx-auto mt-3">
             <h2 class="text-xl font-bold mt-3">Lentera Kopi</h2>
   
             <!-- sosial media -->
             <div class="flex justify-center space-x-2 mt-2">
-              <img src="../../assets/facbook.svg" alt="facebook" class="h-10 w-10">
-              <img src="../../assets/twitter.svg" alt="twitter" class="h-10 w-9">
-              <img src="../../assets/whats.svg" alt="whatsapp" class="h-10 w-9.5">
-              <img src="../../assets/instagram1.svg" alt="instagram" class="h-10 w-10.5">
+              <img src="../../../assets/facbook.svg" alt="facebook" class="h-10 w-10">
+              <img src="../../../assets/twitter.svg" alt="twitter" class="h-10 w-9">
+              <img src="../../../assets/whats.svg" alt="whatsapp" class="h-10 w-9.5">
+              <img src="../../../assets/instagram1.svg" alt="instagram" class="h-10 w-10.5">
             </div>
           </div>
   
@@ -23,8 +23,8 @@
           <li class="bg-gradient-to-r from-sky-200 to-sky-500 py-3 rounded-md font-semibold">Tokopedia</li>
           <li class="bg-gradient-to-r from-sky-200 to-sky-500 py-3 rounded-md font-semibold">Lazada</li>
           <li class="bg-gradient-to-r from-sky-200 to-sky-500 py-3 rounded-md font-semibold">Bukalapak</li>
-      </ul>
-      </div>
+          </ul>
+          </div>
 
         <!-- button dibawah pokoknya -->
         <div class="fixed bottom-0 left-0 right-0 mx-auto max-w-md z-50 bg-sky-300">
