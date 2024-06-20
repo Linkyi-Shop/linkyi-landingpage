@@ -17,8 +17,8 @@
           </div>
         </div>
 
-        <!-- link -->
-        <div class="px-20">
+        <!-- link olshop-->
+        <!-- <div class="px-20">
          <ul class="rounded-lg text-center text-semibold space-y-4 text-white">
         <li class="bg-gradient-to-r from-pink-200 to-pink-500 py-3 rounded-md font-semibold">Website</li>
         <li class="bg-gradient-to-r from-pink-200 to-pink-500 py-3 rounded-md font-semibold">Shopee</li>
@@ -26,6 +26,13 @@
         <li class="bg-gradient-to-r from-pink-200 to-pink-500 py-3 rounded-md font-semibold">Lazada</li>
         <li class="bg-gradient-to-r from-pink-200 to-pink-500 py-3 rounded-md font-semibold">Bukalapak</li>
         </ul>
+        </div> -->
+        <div class="px-20">
+          <ul class="rounded-lg text-center text-semibold space-y-4 text-white">
+            <li v-for="link in storeLinks" :key="link.name" class="bg-gradient-to-r from-pink-200 to-pink-500 py-3 rounded-md font-semibold">
+              <a :href="link.link" target="_blank">{{ link.name }}</a>
+            </li>
+          </ul>
         </div>
 
       <!-- button dibawah pokoknya -->
@@ -69,6 +76,8 @@ export default {
     // Computed properties to get storeLogo and storeName
     const storeLogo = computed(() => dataStore.storeLogo);
     const storeName = computed(() => dataStore.storeName);
+    const storeLinks = computed(() => dataStore.storeLinks);
+
 
     // Fetch store details function
     const fetchData = async () => {
@@ -87,6 +96,7 @@ export default {
     return {
       storeLogo,
       storeName,
+      storeLinks,
     };
   },
   beforeRouteUpdate(to, from, next) {

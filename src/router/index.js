@@ -10,13 +10,13 @@ const routes = [
   },
   {
     name: 'Produk',
-    path: '/store/:slug',
+    path: '/:slug',
     component: DynamicComponent,
     props: true, 
   },
   {
     name: 'Linkyi',
-    path: '/store/:slug/linkyi',
+    path: '/:slug/linkyi',
     component: DynamicComponent,
     props: true, 
   },

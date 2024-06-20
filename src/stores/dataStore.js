@@ -35,7 +35,8 @@ export const useDataStore = defineStore("dataStore", {
         this.storeName = store.name;
         this.storeLogo = store.logo;
         this.storeDescription = store.description;
-        this.storeLinks = links;
+        // this.storeLinks = links;
+        this.storeLinks = links.filter(link => link.type === "link");
         this.themeName = theme.name;
         this.themePath = theme.path;
         this.categories = categories.map((category) => category.name);

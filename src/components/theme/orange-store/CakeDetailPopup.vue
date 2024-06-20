@@ -28,18 +28,19 @@
       />
       <p class="text-gray-700">{{ cakeItem.category ?? '' }}</p>
       <p class="text-gray-800 mt-2">{{ cakeItem.price ?? '' }}</p>
-      <div class="mt-4 grid gap-2">
+      <div class="mt-4 grid gap-2 mb-8">
         <template v-if="cakeItem.links && cakeItem.links.length > 0">
-          <div v-for="(link, index) in cakeItem.links" :key="index">
-        <a
-          :href="link.link"
-          target="_blank"
-          class="bg-pink-400 text-white py-2 px-4 rounded-lg font-semibold"
-        >
-          {{ link.type }}
-        </a>
-      </div>
-        </template>
+  <div v-for="(link, index) in cakeItem.links" :key="index">
+    <a
+      :href="link.link"
+      target="_blank"
+      class="bg-pink-400 text-white py-2 px-5 mt-10 mb-5 rounded-lg font-semibold mb-4"
+    >
+      {{ link.type }}
+    </a>
+  </div>
+</template>
+
         <template v-else>
           <p>No links available</p>
         </template>
