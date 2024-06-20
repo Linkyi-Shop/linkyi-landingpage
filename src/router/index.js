@@ -1,10 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router';
-
 import landingpage from '../components/main/landingpage.vue';
-import produk from '../components/theme/blue-store/produk.vue';
-import akun from '../components/theme/blue-store/akun.vue';
-import orangeproduk from '../components/theme/orange-store/orangeproduk.vue';
-import orangeakun from '../components/theme/orange-store/orangeakun.vue';
+import DynamicComponent from '../components/DynamicComponent.vue';
 
 const routes = [
   {
@@ -14,24 +10,16 @@ const routes = [
   },
   {
     name: 'Produk',
-    path: '/produk',
-    component: produk,
+    path: '/store/:slug',
+    component: DynamicComponent,
+    props: true, 
   },
   {
-    name: 'Akun',
-    path: '/akun',
-    component: akun,
+    name: 'Linkyi',
+    path: '/store/:slug/linkyi',
+    component: DynamicComponent,
+    props: true, 
   },
-  {
-    name: 'OrangeProduk',
-    path: '/orangeproduk',
-    component: orangeproduk,
-  },
-  {
-    name: 'OrangeAkun',
-    path: '/orangeakun',
-    component: orangeakun,
-  }
 ];
 
 const router = createRouter({

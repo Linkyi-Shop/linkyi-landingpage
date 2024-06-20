@@ -18,22 +18,32 @@
         <!-- link -->
         <div class="px-20">
          <ul class="rounded-lg text-center text-semibold space-y-4 text-white">
-        <li class="bg-gradient-to-r from-pink-200 to-pink-500 py-3 rounded-md font-semibold">Website</li>
-        <li class="bg-gradient-to-r from-pink-200 to-pink-500 py-3 rounded-md font-semibold">Shopee</li>
-        <li class="bg-gradient-to-r from-pink-200 to-pink-500 py-3 rounded-md font-semibold">Tokopedia</li>
-        <li class="bg-gradient-to-r from-pink-200 to-pink-500 py-3 rounded-md font-semibold">Lazada</li>
-        <li class="bg-gradient-to-r from-pink-200 to-pink-500 py-3 rounded-md font-semibold">Bukalapak</li>
+        <li class="bg-gradient-to-r from-sky-200 to-sky-500 py-3 rounded-md font-semibold">Website</li>
+        <li class="bg-gradient-to-r from-sky-200 to-sky-500 py-3 rounded-md font-semibold">Shopee</li>
+        <li class="bg-gradient-to-r from-sky-200 to-sky-500 py-3 rounded-md font-semibold">Tokopedia</li>
+        <li class="bg-gradient-to-r from-sky-200 to-sky-500 py-3 rounded-md font-semibold">Lazada</li>
+        <li class="bg-gradient-to-r from-sky-200 to-sky-500 py-3 rounded-md font-semibold">Bukalapak</li>
         </ul>
         </div>
 
       <!-- button dibawah pokoknya -->
-      <div class="fixed bottom-0 left-0 right-0 mx-auto max-w-md z-50 bg-pink-300">
+      <div class="fixed bottom-0 left-0 right-0 mx-auto max-w-md z-50 bg-sky-300">
         <div class="flex justify-center py-2">
-          <ul class="flex space-x-20 font-semibold">
-            <router-link to="/orangeproduk" exact class="nav-link py-2 px-8 bg-white text-pink-900 rounded-md shadow text-semibold">Produk</router-link>
-            <router-link to="/orangeakun" exact class="nav-link py-2 px-8 bg-white text-pink-900 rounded-md shadow text-semibold">Linkyi</router-link>
-          </ul>
-        </div>
+            <ul class="flex space-x-20 font-semibold">
+              <router-link
+                to="/produk"
+                exact
+                class="nav-link py-2 px-8 bg-white text-sky-900 rounded-md shadow text-semibold"
+                >Produk</router-link
+              >
+              <router-link
+                to="/akun"
+                exact
+                class="nav-link py-2 px-8 bg-white text-sky-900 rounded-md shadow text-semibold"
+                >Linkyi</router-link
+              >
+            </ul>
+          </div>
       </div>
     </div>
    </div> 
@@ -56,7 +66,7 @@ export default {
 }
 
 .router-link-active {
-    background-color: #f55ff5; 
+    background-color: #3287e7; 
     color: white; 
   }
   
@@ -65,7 +75,7 @@ export default {
   }
   
   .nav-link:hover {
-    background-color: #f55ff5; 
+    background-color: #3287e7; 
     color: white; 
   }
 </style>
