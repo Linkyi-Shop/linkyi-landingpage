@@ -12,7 +12,7 @@
           <div class="flex lg:flex-1">
             <a href="#" class="-m-1.5 p-1.5 ml-4">
               <span class="sr-only">Logo Linkyi Shop</span>
-              <img class="h-10 w-auto lg:px-5" src="../../assets/linkyishop.svg" alt="" />
+              <img class="h-10 w-auto lg:px-5" src="@/assets/linkyishop.svg" alt="" />
             </a>
           </div>
           <div class="flex lg:hidden">
@@ -37,7 +37,7 @@
           <div class="hidden lg:flex lg:flex-1 lg:justify-end mr-9">
             <button href="#" class="flex items-center rounded-md bg-gradient-to-r from-blue-400 to-blue-600 hover:from-indigo-500 hover:to-gray-800 shadow-sm px-5 py-2.5 text-sm font-semibold text-white">
               <span class="mr-1">Hubungi Kami</span>
-               <!-- <img src="../../assets/" alt="" class="h-2.5 w-2">  -->
+               <!-- <img src="@/assets/" alt="" class="h-2.5 w-2">  -->
             </button>
           </div>
         </nav>
@@ -54,7 +54,7 @@
             <div class="flex items-center justify-between">
               <a href="#" class="-m-1.5 p-1.5 ml-4">
                 <span class="sr-only">Your Company</span>
-                <img class="h-8 w-auto" src="../../assets/linkyshop.svg" alt="" />
+                <img class="h-8 w-auto" src="@/assets/linkyishop.svg" alt="" />
               </a>
               <button
                 type="button"
@@ -78,7 +78,7 @@
                 </div>
                 <div class="py-6">
                   <button href="#" class="rounded-md bg-gradient-to-r from-blue-400 to-blue-600 hover:from-indigo-500 hover:to-gray-800 shadow-sm px-3.5 py-2.5 text-sm font-semibold text-white">Hubungi Kami
-                    <img src="../../assets/Intersect.svg" alt="">
+                    <img src="@/assets/Intersect.svg" alt="">
   
                   </button>
                 </div>
@@ -136,13 +136,13 @@
             <div class="mt-10 flex items-center gap-x-6">
               <button href="#" class="flex items-center rounded-md bg-gradient-to-r from-blue-400 to-blue-600 hover:from-indigo-500 hover:to-gray-800 shadow-sm px-5 py-2.5 text-sm font-semibold text-white">
               <span class="mr-1">Register Sekarang</span>
-               <img src="../../assets/Intersect.svg" alt="" class="h-2.5 w-2"> 
+               <img src="@/assets/Intersect.svg" alt="" class="h-2.5 w-2"> 
             </button>
             </div>
           </div>
           <!-- gambar -->
           <div class="lg:w-2/5 lg:self-right">
-            <img src="../../assets/hero.svg" alt="Your Image Description" class="w-full h-auto object-cover">
+            <img src="@/assets/hero.svg" alt="Your Image Description" class="w-full h-auto object-cover">
           </div>
           </div>
         </div>  
@@ -157,7 +157,7 @@
           <div class="mx-auto max-w-6xl flex justify-between items-center">
              <!-- gambar -->
           <div class="hidden lg:block lg:w-1/2 lg:max-w-2xl pr-6">
-            <img src="../../assets/hero.svg" alt="Your Image Description" class="w-full h-auto object-cover">
+            <img src="@/assets/hero.svg" alt="Your Image Description" class="w-full h-auto object-cover">
       </div>
   
       <!-- Text -->
@@ -168,7 +168,7 @@
           <div class="mt-10 flex pl-4">
             <button href="#" class="flex items-center rounded-md bg-gradient-to-r from-blue-400 to-blue-600 hover:from-indigo-500 hover:to-gray-800 shadow-sm px-5 py-2.5 text-sm font-semibold text-white">
               <span class="mr-1">Buat Katalog Sekarang</span>
-               <img src="../../assets/Intersect.svg" alt="" class="h-2.5 w-2.5"> 
+               <img src="@/assets/Intersect.svg" alt="" class="h-2.5 w-2.5"> 
             </button>
           </div>
       </div>
@@ -189,7 +189,7 @@
     <div class="mt-12">
             <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
               <div class="bg-white rounded-lg shadow-md border-solid border-2 border-sky-100">
-                <img src="../../assets/website.svg" alt="Website Katalog Gratis" class="w-32 h-40 object-cover rounded-t-lg mx-auto ">
+                <img src="@/assets/website.svg" alt="Website Katalog Gratis" class="w-32 h-40 object-cover rounded-t-lg mx-auto ">
                 <div class="p-6">
                   <h3 class="text-lg text-center font-bold text-sky-500">Website Katalog Gratis</h3>
                   <p class="mt-4 text-base text-gray-600 text-justify">
@@ -199,7 +199,7 @@
               </div>
 
         <div class="bg-white rounded-lg shadow-md border-solid border-2 border-sky-100">
-          <img src="../../assets/profil.svg" alt="Link Bio Profil" class="w-32 h-32 object-cover rounded-t-lg mx-auto">
+          <img src="@/assets/profil.svg" alt="Link Bio Profil" class="w-32 h-32 object-cover rounded-t-lg mx-auto">
           <div class="p-6">
             <h3 class="text-lg text-center font-bold text-sky-500">Link Bio Profil</h3>
             <p class="mt-4 text-base text-gray-600 text-justify">
@@ -209,7 +209,7 @@
         </div>
 
         <div class="bg-white rounded-lg shadow-md border-solid border-2 border-sky-100">
-          <img src="../../assets/umkm.svg" alt="Dukungan UMKM" class="w-32 h-32 object-cover rounded-t-lg mx-auto mt-4">
+          <img src="@/assets/umkm.svg" alt="Dukungan UMKM" class="w-32 h-32 object-cover rounded-t-lg mx-auto mt-4">
           <div class="p-6">
             <h3 class="text-lg text-center font-bold text-sky-500">Dukungan UMKM</h3>
             <p class="mt-4 text-base text-gray-600 text-justify">
@@ -264,7 +264,7 @@
       </div>
           <!-- gambar -->
            <div class="hidden lg:block lg:w-1/2 lg:max-w-2xl pr-6">
-               <img src="../../assets/daftar.svg" alt="Your Image Description" class="w-full h-auto object-cover">
+               <img src="@/assets/daftar.svg" alt="Your Image Description" class="w-full h-auto object-cover">
           </div>
         </div>
         </div>
@@ -283,7 +283,7 @@
       <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
         <div class="bg-white rounded-lg shadow-md border-solid border-2 border-sky-100 p-4 w-65 h-80">
           <div class="flex flex-col items-center">
-            <img src="../../assets/malik.svg" alt="Website Katalog Gratis" class="h-20 w-20 object-cover rounded-full mt-4">
+            <img src="@/assets/malik.svg" alt="Website Katalog Gratis" class="h-20 w-20 object-cover rounded-full mt-4">
             <div class="mt-4 text-center">
               <h4 class="text-lg font-medium text-gray-900">Malik Akbar</h4>
               <p class="text-gray-600">@malik___</p>
@@ -296,7 +296,7 @@
   
         <div class="bg-white rounded-lg shadow-md border-solid border-2 border-sky-100 p-4 w-65 h-80">
           <div class="flex flex-col items-center">
-            <img src="../../assets/andrew.svg" alt="Link Bio Profil" class="h-20 w-20 object-cover rounded-full mt-4">
+            <img src="@/assets/andrew.svg" alt="Link Bio Profil" class="h-20 w-20 object-cover rounded-full mt-4">
             <div class="mt-4 text-center">
               <h4 class="text-lg font-medium text-gray-900">Andrew Azizi</h4>
               <p class="text-gray-600">@anaziz</p>
@@ -309,7 +309,7 @@
   
         <div class="bg-white rounded-lg shadow-md border-solid border-2 border-sky-100 p-4 w-65 h-80">
           <div class="flex flex-col items-center">
-            <img src="../../assets/dea.svg" alt="Dukungan UMKM" class="h-20 w-20 object-cover rounded-full mt-4">
+            <img src="@/assets/dea.svg" alt="Dukungan UMKM" class="h-20 w-20 object-cover rounded-full mt-4">
             <div class="mt-4 text-center">
               <h4 class="text-lg font-medium text-gray-900">Dea Nurfadhilah</h4>
               <p class="text-gray-600">@fad__hillah</p>
@@ -330,10 +330,10 @@
           <h2 class="text-white text-3xl text-bold mb-8">Download aplikasi LinkyiShop Sekarang!</h2>
           <div class="flex justify-center space-x-4">
             <a href="https://play.google.com/store/apps">
-              <img src="../../assets/googleplay.svg" alt="google play" class="h-12">
+              <img src="@/assets/googleplay.svg" alt="google play" class="h-12">
             </a>
             <a href="https://www.apple.com/app-store/">
-              <img src="../../assets/appstore.svg" alt="app store" class="h-12">
+              <img src="@/assets/appstore.svg" alt="app store" class="h-12">
             </a>
           </div>
         </div>
@@ -350,14 +350,14 @@
       <div class="mt-5 flex justify-center">
         <button href="#" class="flex items-center rounded-md bg-gradient-to-r from-blue-400 to-blue-600 hover:from-indigo-500 hover:to-gray-800 shadow-sm px-5 py-2.5 text-sm font-semibold text-white">
               <span class="mr-1">Hubungi Kami</span>
-               <img src="../../assets/Intersect.svg" alt="" class="h-2.5 w-2"> 
+               <img src="@/assets/Intersect.svg" alt="" class="h-2.5 w-2"> 
         </button>
       </div>
       <div class="mx-auto mt-10 grid max-w-3xl grid-cols-4 justify-center items-center sm:max-w-xl sm:grid-cols-4 sm:gap-6 lg:max-w-5xl lg:grid-cols-4 lg:gap-8">
-        <img class="max-h-38 w-full object-contain mb-8" src="../../assets/bangkit.svg" alt="Bangkit" /> 
-        <img class="max-h-38 w-full object-contain mb-8" src="../../assets/goto.svg" alt="goto" /> 
-        <img class="max-h-38 w-full object-contain mb-8" src="../../assets/google.svg" alt="Google" /> 
-        <img class="max-h-38 w-full object-contain mb-8" src="../../assets/traveloka.svg" alt="Traveloka" /> 
+        <img class="max-h-38 w-full object-contain mb-8" src="@/assets/bangkit.svg" alt="Bangkit" /> 
+        <img class="max-h-38 w-full object-contain mb-8" src="@/assets/goto.svg" alt="goto" /> 
+        <img class="max-h-38 w-full object-contain mb-8" src="@/assets/google.svg" alt="Google" /> 
+        <img class="max-h-38 w-full object-contain mb-8" src="@/assets/traveloka.svg" alt="Traveloka" /> 
       </div>
     </div>
     </div>
@@ -371,7 +371,7 @@
           <div class="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-4">
             <!-- satu -->
             <div class="flex flex-col py-2">
-              <img src="../../assets/linkyishop.svg" alt="Linkyi Shop" class="h-25 w-20 ">
+              <img src="@/assets/linkyishop.svg" alt="Linkyi Shop" class="h-25 w-20 ">
               <p class="text-left text-gray-500 py-5">Jadikan bisnis online Anda lebih mudah dengan LinkyiShop</p>
             </div>
             <!-- dua -->
@@ -412,16 +412,16 @@
         <div class="flex justify-between items-center space-x-4 mt-8">
           <div class="flex space-x-4 ">
             <a href="https://play.google.com/store/apps">
-              <img src="../../assets/facebook.svg" alt="google play">
+              <img src="@/assets/facebook.svg" alt="google play">
             </a>
             <a href="https://www.apple.com/app-store/">
-              <img src="../../assets/instagram.svg" alt="app store" >
+              <img src="@/assets/instagram.svg" alt="app store" >
             </a>
             <a href="https://www.apple.com/app-store/">
-              <img src="../../assets/linkedin.svg" alt="app store" >
+              <img src="@/assets/linkedin.svg" alt="app store" >
             </a>
             <a href="https://www.apple.com/app-store/">
-              <img src="../../assets/youtube.svg" alt="app store" >
+              <img src="@/assets/youtube.svg" alt="app store" >
             </a>
           </div>
   
@@ -436,83 +436,84 @@
     </div>
   </template>
   
-  <script setup>  
-  // import { ref } from "vue";
-  import { Dialog, DialogPanel } from "@headlessui/vue";
-  import { Bars3Icon, XMarkIcon } from "@heroicons/vue/24/outline";
-  
-  const navigation = [
-    { name: "Beranda", href: "#" },
-    { name: "Tentang", href: "#" },
-    { name: "Manfaat", href: "#" },
-    { name: "Daftar Sekarang", href: "#" },
-    { name: "Testimonial", href: "#" },
-  ];
-  
-  const mobileMenuOpen = ref(false);
-  
-  import { ref, onMounted, onUnmounted } from "vue";
-  
-  const isScrolled = ref(false);
-  
-  const handleScroll = () => {
-    isScrolled.value = window.scrollY > 0;
-  };
-  
-  onMounted(() => {
-    window.addEventListener("scroll", handleScroll);
-  });
-  
-  onUnmounted(() => {
-    window.removeEventListener("scroll", handleScroll);
-  });
-  // Data accordion
-  const accordionItems = ref([
-    {
-      title: 'Daftar',
-      content: "Daftar dan isi informasi yang diperlukan, termasuk alamat email, kata sandi, dan nama Anda",
-      isOpen: false,
-    },
-    {
-      title: 'lengkapi profile',
-      content: "Isi detail profil Anda, seperti Foto profil, bio, dan informasi lainnya.",
-      isOpen: false,
-    },
-    {
-      title: 'Upload produk  Generate bio Link',
-      content: "Tambahkan produk baru. Dan isi informasi produk yang diperlukan, seperti nama produk, deskripsi, dan link produk.  Setelah produk di unggah, Anda dapat membuat tautan bio dan dapat dibagikan kepada orang lain",
-      isOpen: false,
-    },
-  ]);
-  
-  // Metode untuk toggle accordion
-  // const toggleAccordion = (index) => {
-  //   accordionItems.value[index].isOpen = !accordionItems.value[index].isOpen;
-  // };
-  
-  const toggleAccordion = (index) => {
-    console.log("Toggling accordion item:", index);
-    console.log("Before toggle:", accordionItems.value[index]);
-    accordionItems.value[index].isOpen = !accordionItems.value[index].isOpen;
-    console.log("After toggle:", accordionItems.value[index]);
-  };
-  
-  </script>
+  <script setup>
+// import { ref } from "vue";
+import { Dialog, DialogPanel } from "@headlessui/vue";
+import { Bars3Icon, XMarkIcon } from "@heroicons/vue/24/outline";
+
+const navigation = [
+  { name: "Beranda", href: "#" },
+  { name: "Tentang", href: "#" },
+  { name: "Manfaat", href: "#" },
+  { name: "Daftar Sekarang", href: "#" },
+  { name: "Testimonial", href: "#" },
+];
+
+const mobileMenuOpen = ref(false);
+
+import { ref, onMounted, onUnmounted } from "vue";
+
+const isScrolled = ref(false);
+
+const handleScroll = () => {
+  isScrolled.value = window.scrollY > 0;
+};
+
+onMounted(() => {
+  window.addEventListener("scroll", handleScroll);
+});
+
+onUnmounted(() => {
+  window.removeEventListener("scroll", handleScroll);
+});
+// Data accordion
+const accordionItems = ref([
+  {
+    title: "Daftar",
+    content:
+      "Daftar dan isi informasi yang diperlukan, termasuk alamat email, kata sandi, dan nama Anda",
+    isOpen: false,
+  },
+  {
+    title: "lengkapi profile",
+    content:
+      "Isi detail profil Anda, seperti Foto profil, bio, dan informasi lainnya.",
+    isOpen: false,
+  },
+  {
+    title: "Upload produk  Generate bio Link",
+    content:
+      "Tambahkan produk baru. Dan isi informasi produk yang diperlukan, seperti nama produk, deskripsi, dan link produk.  Setelah produk di unggah, Anda dapat membuat tautan bio dan dapat dibagikan kepada orang lain",
+    isOpen: false,
+  },
+]);
+
+// Metode untuk toggle accordion
+// const toggleAccordion = (index) => {
+//   accordionItems.value[index].isOpen = !accordionItems.value[index].isOpen;
+// };
+
+const toggleAccordion = (index) => {
+  console.log("Toggling accordion item:", index);
+  console.log("Before toggle:", accordionItems.value[index]);
+  accordionItems.value[index].isOpen = !accordionItems.value[index].isOpen;
+  console.log("After toggle:", accordionItems.value[index]);
+};
+</script>
   
   <style>
-  .fixed-top {
-    top: 0;
-    width: 100%;
-    z-index: 1030;
-  };
-  
-  .text-xl {
-    font-size: 1.25rem; 
-  };
-  
-  .navbar-scroll {
-    background-color: rgba(133, 177, 253, 0.95); 
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
-  }
-  
-  </style>
+.fixed-top {
+  top: 0;
+  width: 100%;
+  z-index: 1030;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+}
+
+.navbar-scroll {
+  background-color: rgba(133, 177, 253, 0.95);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+</style>
