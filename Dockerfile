@@ -16,17 +16,20 @@ COPY . .
 # Build aplikasi Vue.js
 RUN npm run build
 
-# Gunakan image Nginx untuk serving aplikasi
-FROM nginx:1.19.0-alpine
+# Stage baru untuk menjalankan aplikasi menggunakan serve
+FROM node:14-alpine
 
-# Copy hasil build dari stage sebelumnya ke direktori Nginx
-COPY --from=build /app/dist /usr/share/nginx/html
+# Install serve secara global
+RUN npm install -g serve
 
-# Copy nginx.conf ke dalam container
-COPY ./.docker/nginx/nginx.conf /etc/nginx/conf.d/default.conf
+# Set working directory
+WORKDIR /app
+
+# Copy hasil build dari stage sebelumnya ke direktori kerja
+COPY --from=build /app/dist /app
 
 # Expose port 80
 EXPOSE 80
 
-# Start Nginx
-CMD ["nginx", "-g", "daemon off;"]
+# Command untuk menjalankan aplikasi
+CMD ["serve", "-s", ".", "-l", "80"]
